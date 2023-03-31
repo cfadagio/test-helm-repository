@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.cfadagio.com:31320/test-api
+  repository: cfadagio/demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: main-d62280f9
